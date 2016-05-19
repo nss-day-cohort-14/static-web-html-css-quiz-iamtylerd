@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+/*Base Styles*/
+
+footer {
+	font-size: x-small;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+/*Content styling*/
+.main-content {
+	width: 100%;
+}
+
+.card {
+	/*box-sizing: border-box;*/
+	width: 30%;
+	border: 1px solid lightblue;
+	margin-left: 3px;
+	float: left;
+}
+
+.card-header {
+	padding: 5px 0;
+	text-align: center;
+	border: 1px dotted lightgray;
+}
+
+.card img {
+	display: block;
+	max-width: 80%;
+	margin: 15px auto;
+	max-height: 191px;
+}
+
+.description {
+	/*display: block*/
+	text-align: left;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.available {
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: grey;
+	color: yellow;
+}
+
+.section-header {
+	padding-right: 3px;
+	padding-left: 3px;
+	font-weight: bold;
+}
+
+.item-info {
+	/*display: block;*/
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: .75em;
+}
+
+.price {
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: .85em;
+}
+
+
+/*Clearfix*/
+.clear:before,
+.clear:after {
+	content: "";
+	display: table;
+}
+
+.clear:after {
+	clear: both;
+}
+
+
+
+
